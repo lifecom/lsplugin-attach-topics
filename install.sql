@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `prefix_attach_topics` (
+  `id`        INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `topic_id`  INT(11) UNSIGNED NOT NULL,
+  `attach_id` INT(11) UNSIGNED NOT NULL,
+  `order`     INT(10) UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`)
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;

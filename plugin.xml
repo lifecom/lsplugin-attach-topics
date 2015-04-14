@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Attach Topics</lang>
+    </name>
+    <author>
+        <lang name="default">Gavka S.</lang>
+    </author>
+    <homepage>https://github.com/sgavka</homepage>
+    <version>0.0.1</version>
+    <requires>
+        <livestreet>1.0.3</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Allows to attach topics to topic</lang>
+        <lang name="russian">Позволяет закреплять топики к другому топику</lang>
+    </description>
+</plugin>
